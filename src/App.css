@@ -33,15 +33,59 @@ body{
   justify-content: space-evenly;
 }
 @media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #1a1a1a; /* example dark background */
+  }
+
   .wrap {
-    width: 80%;   
-    height: auto; 
+    width: 80%;
+    height: auto;
+  }
+
+  .btn1 {
+    font-size: 18px;
+    height: 2.5em;
+    border-radius: 15px;
   }
 }
 @media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    padding: 5px;
+    background-color: #111; /* slightly darker */
+  }
+
   .wrap {
-    width: 90%;   
+    width: 90%;
     height: auto;
-    border-radius: 12px; 
+    border-radius: 12px;
+  }
+
+  .btn1 {
+    font-size: 16px;
+    height: 2.2em;
+    border-radius: 12px;
   }
 }
+@media (max-width: 320px) {
+  body {
+    font-size: 12px;   /* not too tiny */
+    padding: 5px;
+  }
+
+  .wrap {
+    width: 105%;
+    height: 80%;
+    border-radius: 12px;
+  }
+
+  .btn1 {
+    font-size: 16px;   /* keep buttons readable */
+    height: 2.5em;     /* slightly bigger for fingers */
+    border-radius: 12px;
+    margin: 3px;
+  }
+}
+
