@@ -1,0 +1,26 @@
+.btn1{
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #e31d1d;
+  color: rgb(248, 241, 241);
+  flex: 1;
+
+  margin: 4px;
+  border-radius: 20px;
+
+  background: rgba(1, 0, 0, 0.15);
+  backdrop-filter: blur(10px);  
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.2s ease-in-out;
+}
+.btn:active{
+  transform: scale(0.94);
+  box-shadow: inset 4px 4px 10px rgba(0,0,0,0.5);
+}
